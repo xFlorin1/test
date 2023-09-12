@@ -1,0 +1,262 @@
+body {
+  font-family: "Roboto", sans-serif;
+  }
+
+ul {
+  list-style-type: none;
+}
+
+.logo-section {
+  text-decoration: none;
+}
+
+.logo-section p {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.logo-section span {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+
+.connect {
+  color: #2196F3;
+}
+
+.nav-section {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.connect {
+  color: #2196F3;
+}
+
+.nav-section:hover {
+  color: #2196f3;
+}
+
+.contacts-list a {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.contacts-list a:focus,
+.contacts-list a:hover{
+  color: #2196f3;
+}
+
+.section-background {
+  background-color: #2f303a;
+}
+
+.tittle-style {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.button-style {
+  background: #2196f3;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+}
+
+.button-style:hover{
+  background-color: #188ce8;
+}
+
+.what-we-do-section h3 {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.what-we-do-section p {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.what-we-do-section h2 {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.our-team-section h2 {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.our-team-section h3 {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.our-team-section p {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.our-team-section {
+  background: #f5f4fa;
+}
+
+.our-team-section li {
+  background-color: #fff;
+}
+
+.footer-background {
+  background: #2f303a;
+}
+
+.footer-section {
+  text-decoration: none;
+}
+
+.footer-section span {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-section p {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.contacts-footer p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+}
+
+.contacts-footer a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+
+
+.button-section {
+  color: #212121;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+
+.button-section:focus,
+.button-section:active{
+  background-color: #2196F3;
+	color: #fff;
+}
+
+.ads-section {
+  background: #fff;
+}
+
+.ads-section h3 {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
+.ads-section p {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+
+.portofolio-html {
+	display: none;
+}
