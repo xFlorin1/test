@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  }
+}
 
 ul {
   list-style-type: none;
@@ -30,9 +30,8 @@ ul {
   letter-spacing: 0.78px;
 }
 
-
 .connect {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .nav-section {
@@ -47,7 +46,7 @@ ul {
 }
 
 .connect {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .nav-section:hover {
@@ -65,7 +64,7 @@ ul {
 }
 
 .contacts-list a:focus,
-.contacts-list a:hover{
+.contacts-list a:hover {
   color: #2196f3;
 }
 
@@ -97,7 +96,7 @@ ul {
   letter-spacing: 0.96px;
 }
 
-.button-style:hover{
+.button-style:hover {
   background-color: #188ce8;
 }
 
@@ -215,7 +214,6 @@ ul {
   text-decoration: none;
 }
 
-
 .button-section {
   color: #212121;
   cursor: pointer;
@@ -228,18 +226,13 @@ ul {
 }
 
 .button-section:focus,
-.button-section:active{
-  background-color: #2196F3;
-	color: #fff;
+.button-section:active {
+  background-color: #2196f3;
+  color: #fff;
 }
 
-.ads-section {
-  background: #fff;
-}
-
-.ads-section h3 {
+.cards-section h3 {
   color: #212121;
-  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -247,16 +240,11 @@ ul {
   letter-spacing: 1.08px;
 }
 
-.ads-section p {
+.cards-section p {
   color: #757575;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
-}
-
-.portofolio-html {
-	display: none;
 }
