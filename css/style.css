@@ -109,10 +109,9 @@ ul {
   background-color: #188ce8;
 }
 
-/* .what-we-do-section { 
-  justify-content: space-around;
-  column-gap: normal;
-}*/
+.div-section {
+  display: block;
+}
 
 .what-we-do-section h3 {
   color: #212121;
@@ -121,8 +120,6 @@ ul {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
-  text-transform: uppercase;
-  justify-content: space-around;
 }
 
 .what-we-do-section p {
