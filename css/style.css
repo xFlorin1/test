@@ -2,6 +2,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container-list {
+
+}
+
 ul {
   list-style-type: none;
 }
@@ -70,17 +74,22 @@ ul {
 
 .section-background {
   background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  text-align: center;
 }
 
 .tittle-style {
   color: #fff;
-  text-align: center;
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  text-align: center;
+  padding-top: 200px ;
 }
 
 .button-style {
@@ -88,17 +97,22 @@ ul {
   border: none;
   cursor: pointer;
   color: #fff;
-  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+  border-radius: 2px;
 }
 
 .button-style:hover {
   background-color: #188ce8;
 }
+
+/* .what-we-do-section { 
+  justify-content: space-around;
+  column-gap: normal;
+}*/
 
 .what-we-do-section h3 {
   color: #212121;
@@ -108,6 +122,7 @@ ul {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  justify-content: space-around;
 }
 
 .what-we-do-section p {
