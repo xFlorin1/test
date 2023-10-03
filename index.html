@@ -19,11 +19,19 @@
       </a>
 
       <nav>
-        <ul>
-          <li><a href="index.html" class="nav-section connect">Studio</a></li>
-          <li><a href="portofolio.html" class="nav-section">Portofolio</a></li>
-          <li><a href="#contacts" class="nav-section">Contacts</a></li>
-        </ul>
+        <div class="div-list">
+          <ul>
+            <li>
+              <a href="index.html" class="nav-section connect">Studio</a>
+            </li>
+            <li>
+              <a href="portofolio.html" class="nav-section">Portofolio</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav-section">Contacts</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <div class="contacts-list">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -32,47 +40,54 @@
     </header>
     <main>
       <section class="section-background">
-        <h1 class="tittle-style">EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
-        <button type="button" class="button-style">Request our service</button>
+        <div class="effective-solution-container">
+          <h1 class="tittle-style">
+            EFFECTIVE SOLUTIONS FOR <br />
+            YOUR BUSINESS
+          </h1>
+          <button type="button" class="button-style">
+            Request our service
+          </button>
+        </div>
       </section>
 
       <section class="what-we-do-section">
-        <div class="div-section">
-        <ul>
-          <li>
-            <h3>ATTENTION TO DETAILS</h3>
-            <p>
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-          <li>
-            <h3>PUNCTUALITY</h3>
-            <p>
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and deadlines.
-            </p>
-          </li>
-          <li>
-            <h3>PLANNING</h3>
-            <p>
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <h3>MODERN TECHNOLOGIES</h3>
-            <p>
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
+        <div class="details-content-container">
+          <ul class="details-content">
+            <li>
+              <h3>ATTENTION TO DETAILS</h3>
+              <p>
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+            <li>
+              <h3>PUNCTUALITY</h3>
+              <p>
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and deadlines.
+              </p>
+            </li>
+            <li>
+              <h3>PLANNING</h3>
+              <p>
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li>
+              <h3>MODERN TECHNOLOGIES</h3>
+              <p>
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
         </div>
         <h2>What we do</h2>
 
-        <div>
-          <ul>
+        <div class="photo-position-container">
+          <ul class="photo-position">
             <li>
               <img src="./images/box-1.jpg" alt="Back end stuff" width="370" />
             </li>
@@ -88,7 +103,7 @@
 
       <section class="our-team-section">
         <h2>Our team</h2>
-        <ul>
+        <ul class="team-style">
           <li>
             <img
               src="./images/team-card-1.jpg"
@@ -130,15 +145,18 @@
     </main>
 
     <footer class="footer-background">
-      <a href="index.html"  class="footer-section">
-        <p><span>Web</span>Studio</p>
-      </a>
-
-      <address id="contacts" class="contacts-footer">
-        <p>695 Park Ave, NY 10065, USA</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+1212-772-4150">+1 212-772-4150</a>
-      </address>
+      <div class="footer-logo">
+        <a href="index.html" class="footer-section">
+          <p><span>Web</span>Studio</p>
+        </a>
+      </div>
+      <div class="contacts-footer-container">
+        <address id="contacts" class="contacts-footer">
+          <p>695 Park Ave, NY 10065, USA</p>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

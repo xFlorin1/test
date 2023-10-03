@@ -3,7 +3,20 @@ body {
 }
 
 .container-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  border-bottom: #ececec solid 1px;
+  height: 80px;
+  
+}
 
+.div-list ul {
+  display: flex;
+  gap: 50px;
+  padding-left: 0px;
+  margin: 32px 0px 32px 93px;
 }
 
 ul {
@@ -14,6 +27,8 @@ ul {
   text-decoration: none;
 }
 
+
+
 .logo-section p {
   color: #000;
   font-family: Raleway;
@@ -22,6 +37,7 @@ ul {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+  margin: 24px 0px 25px 215px;
 }
 
 .logo-section span {
@@ -57,6 +73,12 @@ ul {
   color: #2196f3;
 }
 
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 385px;
+} 
+
 .contacts-list a {
   color: #757575;
   font-size: 14px;
@@ -73,11 +95,19 @@ ul {
 }
 
 .section-background {
+  display: flex;
   background-color: #2f303a;
-  width: 1600px;
+  width: 100%;
   height: 600px;
-  top: 80px;
   text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.effective-solution-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .tittle-style {
@@ -88,8 +118,6 @@ ul {
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  text-align: center;
-  padding-top: 200px ;
 }
 
 .button-style {
@@ -109,8 +137,18 @@ ul {
   background-color: #188ce8;
 }
 
-.div-section {
-  display: inline;
+.details-content-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details-content {
+  display: flex;
+  gap: 30px;
+}
+
+.details-content li {
+  width: 270px;
 }
 
 .what-we-do-section h3 {
@@ -141,6 +179,16 @@ ul {
   letter-spacing: 1.08px;
 }
 
+.photo-position-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-position {
+  display: flex;
+  gap: 30px;
+}
+
 .our-team-section h2 {
   color: #212121;
   text-align: center;
@@ -154,7 +202,7 @@ ul {
 .our-team-section h3 {
   color: #212121;
   text-align: center;
-  font-size: 36px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -179,8 +227,23 @@ ul {
   background-color: #fff;
 }
 
+.team-style {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
 .footer-background {
   background: #2f303a;
+  height: 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.footer-logo p {
+  margin-left: 215px;
 }
 
 .footer-section {
@@ -214,6 +277,16 @@ ul {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.42px;
+  margin: 0px;
+}
+
+.contacts-footer {
+  width: 231px;
+  height: 72px;
+  margin-left: 215px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .contacts-footer a {
@@ -224,6 +297,33 @@ ul {
   line-height: 16px;
   letter-spacing: 0.42px;
   text-decoration: none;
+}
+
+/* Portofolio */
+
+.portofolio-section {
+  width: 1200px;
+  height: 1360px;
+  margin: 94px 215px;
+}
+
+.button-section-container ul {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  gap: 30px;
+}
+
+.cards-items {
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .button-section {
@@ -260,3 +360,4 @@ ul {
   line-height: 30px;
   letter-spacing: 0.48px;
 }
+
